@@ -25,8 +25,17 @@ El propósito de una prueba de regresión es asegurarnos de que los cambios que 
 //Caso de prueba para verificar pago exitoso
 //Pasos:
 //1. Abrir aplicación
-//2. Completar formulario con usurio y contraseña
+//2. Completar formulario de inicio de sesión con usurio y contraseña
 //3. Redirigir a la página
 Suponiendo que al iniciar sesión hay un botón para ir a pagar
 //3. Hacer click en el botón "Pagar"
-//4. 
+//4.Completar formulario de proceso de pago
+//5. Hacer click en el botón "Procesar pago" 
+//6. Resultado: Debe mostrar el mensaje de "Pago exitoso" y redirigir a la página principal
+
+Si se muestra el error, debemos examinar el código, hacer console.eror para identificar dónde está error y corregirlo.
+Hacer retesting y validación para verificar que el problema se haya solucionado correctamente.
+
+3. Práctica
+El código en python es una función que ordena un array que se recibe de forma ascendente, había un error en la línea donde se intercambian los elementos del array cuando se encuentra un par desordenado.
+Se estaba asignando el mismo valor por lo cuál lo corregí, ahora ya permite intercambiar los valores de manera eficiente sin necesidad de una variable temporal.

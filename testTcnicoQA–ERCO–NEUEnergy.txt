@@ -1,0 +1,32 @@
+1. Conocimiento QA
+• ¿Qué es QA y por qué es importante en el desarrollo de software?
+Proceso en el desarrollo del software que consiste en evaluar que un software cumpla con los requisitos y funciones según las expectativas, identificando y corregiendo errores. Es importante en el desarrollo del sofware porque nos permite encontrar defectos o errores en el software antes de que llegue a los usuarios finales, así aseguramos la calidad del software.
+
+• ¿Cuál es la diferencia entre pruebas manuales y pruebas automáticas?
+La diferencia entre pruebas manuales y automáticas es que las pruebas manuales las hace manualmente un tester que ejecuta los casos de prueba y verifica los resultados. Las pruebas automáticas utilizan herramientas para ejecutar automáticamente los casos de prueba y comparar los resultados esperados.
+
+• ¿Qué son los casos de prueba y cómo los crearías?
+Los casos de prueba son un conjunto de pasos y condiciones específicas que se utilizan para probar la función de un software, tiene entradas y resultados esperados. Yo crearía un caso de prueba de la siguiente manera para por ejemplo verificar que un usuario se ha registrado exitosamente:
+1. Describo qué quiero probar
+//Caso de prueba para verificar el registro de un usuario en una aplicación
+2. Defino los pasos
+//Pasos
+//1. Abrir la aplicación
+//2. Hacer click en el botón "Registrarse"
+//3. Completar el formulario con un usuario y contraseña.
+//4. Hacer click en el botón de "Completar registro"
+//5. Datos de entrada: usuario="x", contraseña="x"
+//6. Resultado: Debe mostra el mensaje de "Registro exitoso" y redirigir a la página de inicio de sesión.
+
+• ¿Cuál es el propósito de la prueba de regresión?
+El propósito de una prueba de regresión es asegurarnos de que los cambios que hayamos hecho no hayan causado nuevos errores ni haya afectado negativamente las características que ya existian.
+
+2. Resolución de problemas
+//Caso de prueba para verificar pago exitoso
+//Pasos:
+//1. Abrir aplicación
+//2. Completar formulario con usurio y contraseña
+//3. Redirigir a la página
+Suponiendo que al iniciar sesión hay un botón para ir a pagar
+//3. Hacer click en el botón "Pagar"
+//4. 
